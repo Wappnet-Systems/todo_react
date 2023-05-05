@@ -1,0 +1,146 @@
+.gradient-custom-2 {
+  background: linear-gradient(to right top, #6d327c, #485DA6, #00a1ba, #00BF98, #36C486);
+  
+}
+
+a:hover {
+  cursor: pointer;
+}
+  
+  .mask-custom {
+    background: rgba(24, 24, 16, 0.2);
+    border-radius: 2em;
+    backdrop-filter: blur(25px);
+    background-clip: padding-box;
+    box-shadow: 10px 10px 10px rgba(46, 54, 68, 0.03);
+    min-height: 500px;
+    overflow: hidden !important;
+  }
+
+.mask-custom .card-body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px;
+}
+
+.customtable tbody tr td i {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px !important;
+}
+
+.custombt {
+  width: 120px;
+  border: none;
+  background: #ffffff;
+  margin-left: 10px !important;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+}
+
+.inputfields {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+ .inputfields input {
+  height: 50px;
+  padding: 15px 25px;
+  border-radius: 30px;
+  border: none;
+}
+
+
+.customtable{
+  text-align: left;
+}
+
+.customtable thead tr th {
+  padding: 20px 30px;
+  border-bottom: 0.5px solid #ffffff3d;
+}
+
+.customtable tbody tr td {
+  padding: 20px 30px;
+  border-bottom: 0.5px solid #ffffff3d;
+}
+
+.customtable tbody tr:last-child td {
+  border-bottom:none;
+}
+
+
+.customtable tbody tr td {
+  padding: 10px 30px
+}
+
+
+.tdtag {
+  width: 64%;
+}
+
+.table-scroll {
+  width: 100%;
+  height: 220px;
+  overflow-y: scroll;
+}
+
+.table-scroll::-webkit-scrollbar {
+  width: 2px;
+}
+ 
+.table-scroll::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+ 
+.table-scroll::-webkit-scrollbar-thumb {
+  background-color: #fff;
+  outline: 1px solid slategrey;
+}
+
+::-webkit-scrollbar:horizontal{
+  height: 2px;
+}
+
+.pageheight{
+  height: 100vh;
+}
+
+@media (min-width: 320px) and (max-width: 767.98px) { 
+
+  .todopage {
+    display: inline-block !important;
+    width: 100%;
+}
+.righticons {
+  padding-bottom: 30px;
+}
+.mask-custom {
+   min-height: auto !important;
+}
+.inputfields {
+  flex-wrap: wrap;
+}
+.pageheight{
+  height: 100vh !important;
+}
+.customtable {
+  max-width: 700px;
+  min-width: 500px;
+}
+.tdtag {
+  width: auto !important;
+}
+
+}
+

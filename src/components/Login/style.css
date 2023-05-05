@@ -1,0 +1,55 @@
+.gradient-custom-2 {
+    background: linear-gradient(to right top, #6d327c, #485DA6, #00a1ba, #00BF98, #36C486);
+}
+.kep-login-facebook.metro {
+    border-radius: 10px!important;
+    padding: 0 20px;
+    text-transform: capitalize;
+    display: flex;
+  }
+.kep-login-facebook {
+    border-radius: 0;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 600;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.kep-login-facebook i {
+  width: 30px;
+  height: 30px;
+  background: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  color: #4762ad;
+  margin-right: 10px !important;
+}
+
+.settingcard2{
+    display: inline-block !important;
+    width: 400px;
+  }
+
+.mask-custom2 {
+  background: rgba(24, 24, 16, 0.2);
+  border-radius: 2em;
+  backdrop-filter: blur(25px);
+  background-clip: padding-box;
+  box-shadow: 10px 10px 10px rgba(46, 54, 68, 0.03);
+  min-height: 300px;
+}
+
+.pagetitle {
+    text-transform: capitalize !important;
+  }
+
+  .settingcard2 {
+    margin: 15px;
+}

@@ -1,0 +1,40 @@
+.pagetitle {
+    color: #fff;
+    font-weight: 600;
+  }
+
+.subtitle{
+    color: #fff;
+    font-weight: 600;
+  }
+
+.ptext{
+    color: #fff;
+}
+
+.settingcard{
+    display: inline-block;
+    width: 400px;
+}
+
+.mask-custom {
+  background: rgba(24, 24, 16, 0.2);
+  border-radius: 2em;
+  backdrop-filter: blur(25px);
+  background-clip: padding-box;
+  box-shadow: 10px 10px 10px rgba(46, 54, 68, 0.03);
+  min-height: 500px;
+}
+
+
+@media (min-width: 320px) and (max-width: 767.98px) { 
+.settingcard {
+  width: 100% !important;
+  margin-top: 80px;
+}
+
+.todoicn i{
+  font-size: 30px;
+}
+
+}
